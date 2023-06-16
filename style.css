@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ html{
+    scroll-behavior: smooth;
+} 
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    border: 2px solid rgb(49, 49, 49);
+}
+
+ .nav-list{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    width: 50%;
+} 
+
+ .nav-list li{
+    list-style: none;
+} 
+
+ .nav-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+} 
+
+ .nav-list li a:hover{
+   color: black;
+   padding:  10px 0;
+   background-color: ghostwhite;
+   border-radius: 25px;
+   font-weight: 500;
+} 
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+
+.logo img{
+  width: 70px;
+  height: 70px;  
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+#search{
+    width: 30%;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 17px;
+    border: 1px  black;
+    border-radius: 8px;
+}
+
+.background{
+    /* background-color: rgb(45, 43, 43); */
+    background: rgb(0,0,0,0.7) url('../img/2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.backgroundimg{
+    background: rgb(0,0,0,0.7) url('../img/bgg.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 85vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 90%;
+    margin: auto;
+}
+
+.firsthalf{
+    margin-top: 150px;
+     width: 80%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     font-size: 30px;
+    }
+
+.secondhalf img{
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 70%;
+}
+
+.btn1{
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 300;
+    background-color: rgba(240, 248, 255, 0.471);
+}
+
+.btn1:hover{
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.text-big{
+    font-size: 60px;
+}
+
+.text-small{
+    font-size: 25px;
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom:8px ;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 300;
+    background-color: rgba(240, 248, 255, 0.471);
+}
+
+.btn:hover{
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.paras{
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.secright{
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 100px;
+    margin-left: 83px;
+    margin-bottom: 80px;
+}
+
+.secleft{
+    flex-direction: row-reverse;
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 100px;
+    margin-left: 83px;
+    margin-bottom: 80px;
+}
+
+.thumbnail img{
+    height: 300px;
+    width: 300px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.sectiontag{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.paras .sectionsubtag:hover{
+    background-color: antiquewhite;
+}
+
+.contact{
+    /* background-color: rgb(192, 216, 247); */
+    background: url('../img/1.jpeg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.form{
+    max-width: 344px;
+    margin: auto;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 30px 0;
+}
+
+.btn2{
+    text-align: center;
+    margin-left: 140px;
+    padding: 5px 12px;
+    border-radius: 12px;
+}
+
+.btn2:hover{
+    background-color: rgb(192, 182, 167);
+}
+
+#text{
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    height: 35px;
+    color: white;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+     .burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+} 
+
+@media only screen and (max-width:1280px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 400px;
+    }
+
+    .rightNav{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 75%;
+    }
+
+    .nav-list li{
+        margin-top: 23px;
+    }
+
+    .text-big{
+        margin-top: -80px;
+        font-size: 60px;
+    }
+
+    .text-small{
+        font-size:28px ;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 50px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .firstsection{
+        height: 150vh;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+
+    .secleft{
+        flex-direction: column-reverse;
+        margin-left: 22px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .secright{
+        flex-direction: column-reverse;
+        margin-left: 22px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .thumbnail img{
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+    }
+
+    .firsthalf{
+        margin-left: 50px;
+    }
+
+    .secondhalf img{
+        margin-top: 20px;
+    }
+
+    .form-input{
+        width: 85%;
+        margin-left: 5px;
+    }
+
+    .footer{
+        font-size: 15px;
+    }
+
+    .btn2{
+        margin-left: 5px;
+    }
+
+    .box-main{
+        margin: 0 10px;
+    }
+}
+
